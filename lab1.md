@@ -18,6 +18,7 @@ Lab: Lab1
 - Склонирован себе проект: `git clone https://gitlab.com/itmo_samon/openstack_lab.git`
 - Выполнен `./prepare.sh`
 - Выполнен `./config.sh`
+  
   <img width="345" alt="2" src="https://github.com/msyuaa/openstack_itmo/assets/97636484/1a5fe5b4-6002-4638-b500-b195fec130f4">
 
 - Установлен OpenStack: `packstack --answer-file=answer.cfg`
@@ -48,6 +49,7 @@ Lab: Lab1
 <img width="490" alt="members" src="https://github.com/msyuaa/openstack_itmo/assets/97636484/489a17c7-4b9f-488d-bbd1-bfb7d6c28806">
 
 - Авторизация под созданным пользователем
+
   <img width="907" alt="angela_user" src="https://github.com/msyuaa/openstack_itmo/assets/97636484/626b71f7-7d87-4828-91fc-ea05bcf7f559">
 
 
