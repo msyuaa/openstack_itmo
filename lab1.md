@@ -22,28 +22,37 @@ Lab: Lab1
   <img width="345" alt="2" src="https://github.com/msyuaa/openstack_itmo/assets/97636484/1a5fe5b4-6002-4638-b500-b195fec130f4">
 
 - Установлен OpenStack: `packstack --answer-file=answer.cfg`
+  
   <img width="441" alt="preparesh" src="https://github.com/msyuaa/openstack_itmo/assets/97636484/69913777-15bd-4269-8bc3-7c9a05f771e3">
 
 
 - Команда `cat ~/keystonerc_admin`
+  
   <img width="399" alt="keystonerc" src="https://github.com/msyuaa/openstack_itmo/assets/97636484/a70d2722-b174-40ae-aead-9605595eec11">
 
-- КОманда `source ~/keystonerc_admin`, чтобы данные для входа попали в переменные среды
+- Команда `source ~/keystonerc_admin`, чтобы данные для входа попали в переменные среды
+  
   <img width="477" alt="openstack endpoint" src="https://github.com/msyuaa/openstack_itmo/assets/97636484/0532907e-5d1d-4fa5-bd3e-03a90593963c">
 
 - Команда `openstack endpoint list`, чтоб получить список эндпоинтов для сервисов Openstack
-- Команду `openstack user list`
+- Команда `openstack user list`
+  
   <img width="406" alt="userlist" src="https://github.com/msyuaa/openstack_itmo/assets/97636484/fa3a7c8e-2325-4490-bfdc-e825055596af">
 
 - Команда `openstack project list`
+
   <img width="414" alt="project" src="https://github.com/msyuaa/openstack_itmo/assets/97636484/bd185977-79cc-45f8-9bf2-614b7f267183">
 
 - Команда `openstack project create --domain default --description "Demo Project" demo` и `openstack project list`
+  
 <img width="476" alt="demo+list" src="https://github.com/msyuaa/openstack_itmo/assets/97636484/df50e691-6dbe-4310-bdff-e021d2bca68b">
+
 - Подключение к веб-панели (*Horizon*) через браузер
+  
 <img width="749" alt="web" src="https://github.com/msyuaa/openstack_itmo/assets/97636484/22bce797-ec76-4925-af5a-21e588073a59">
 
 - Создание проекта и пользователя проекта в интерфейсе Horizon
+  
 <img width="492" alt="project_web_new" src="https://github.com/msyuaa/openstack_itmo/assets/97636484/43e8bd57-eda2-464c-aef6-eda4299c0546">
 
 <img width="490" alt="members" src="https://github.com/msyuaa/openstack_itmo/assets/97636484/489a17c7-4b9f-488d-bbd1-bfb7d6c28806">
