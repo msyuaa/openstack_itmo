@@ -83,6 +83,10 @@ Lab: Lab2
 
 <img width="607" alt="lab2_18" src="https://github.com/msyuaa/openstack_itmo/assets/97636484/83234492-81a7-4a02-848f-adef2ec598d2">
 
+<img width="756" alt="lab2_19" src="https://github.com/msyuaa/openstack_itmo/assets/97636484/6dae3389-80e7-4583-bf33-403711cc4489">
+
+<img width="738" alt="lab2_20" src="https://github.com/msyuaa/openstack_itmo/assets/97636484/9dcc7c45-ef8b-4797-b8d2-205da04edc2d">
+
 
 ### Результаты:
 
