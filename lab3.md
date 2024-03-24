@@ -17,7 +17,7 @@ Lab: Lab3
 
 - Проверка, что токен рабочий
 
-  <img width="940" alt="lab3_2" src="https://github.com/msyuaa/openstack_itmo/assets/97636484/7f1deb3f-da15-4631-b104-1b9d50ad9266">
+<img width="940" alt="lab3_2" src="https://github.com/msyuaa/openstack_itmo/assets/97636484/7f1deb3f-da15-4631-b104-1b9d50ad9266">
 
 
 - Создание новую ВМ через Nova API 
@@ -28,7 +28,7 @@ Lab: Lab3
 ### Задание:
 
 - Повторена операцию по созданию ВМ через API, но с помощью  Python
-`import requests
+```import requests
 
 url_token = 'http://localhost:5000/v3/auth/tokens'
 url_server = 'http://localhost:8774/v2.1/servers'
@@ -104,7 +104,7 @@ response = requests.post(url_server, headers=headers, json=data2)
 print(response.status_code)
 print(response.text)
 print(response.json())
-`
+```
 
 ### Результаты:
 
