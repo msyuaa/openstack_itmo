@@ -28,7 +28,8 @@ Lab: Lab3
 ### Задание:
 
 - Повторена операцию по созданию ВМ через API, но с помощью  Python
-```import requests
+```
+import requests
 
 url_token = 'http://localhost:5000/v3/auth/tokens'
 url_server = 'http://localhost:8774/v2.1/servers'
@@ -105,6 +106,24 @@ print(response.status_code)
 print(response.text)
 print(response.json())
 ```
+Результат вывода:
+```
+Enter user name: admin
+Enter user domain id: default
+Enter user password: 3cba083518cc4c1e
+Enter project name: admin
+Enter project domain id: default
+Enter server name: myservertest
+Enter imageRef: df3ba398-2bee-4592-9b79-20ddb263029a
+Enter flavorRef: a9a79d92-db41-4f6e-a272-d3c32a758206
+202
+{"server": {"id": "c2c993a9-11b9-4540-8234-43c6c4ca9574", "links": [{"rel": "self", "href": "http://localhost:8774/v2.1/servers/c2c993a9-11b9-4540-8234-43c6c4ca9574"}, {"rel": "bookmark", "href": "http://localhost:8774/servers/c2c993a9-11b9-4540-8234-43c6c4ca9574"}], "OS-DCF:diskConfig": "MANUAL", "security_groups": [{"name": "fbc91437-172e-432f-9682-3a0dbc972786"}], "adminPass"/c2c993a9-11b9-4540-8234-43c6c4ca95: "qu6rMwwqBZdq"}}                                                                                                             "MANUAL", "security_groups": [{"nam
+{'server': {'id': 'c2c993a9-11b9-4540-8234-43c6c4ca9574', 'links': [{'rel': 'self', 'href': 'http://localhost:8774/v2.1/servers/c2c993a9-11b9-4540-8234-43c6c4ca9574'}, {'rel': 'bookmark', 'href': 'http://localhost:8774/servers/c2c993a9-11b9-4540-8234-43c/c2c993a9-11b9-4540-8234-43c6c4ca956c4ca9574'}], 'OS-DCF:diskConfig': 'MANUAL', 'security_groups': [{'name': 'fbc91437-172e-432f-9682-3a0dbc972786'}], 'adminPass''MANUAL', 'security_groups': [{'nam: 'qu6rMwwqBZdq'}}
+```
+
+<img width="774" alt="lab3_5" src="https://github.com/msyuaa/openstack_itmo/assets/97636484/97041b4a-d8be-4b24-9455-a2f7eb7e7e11">
+
+
 
 ### Результаты:
 
